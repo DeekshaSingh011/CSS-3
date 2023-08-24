@@ -99,28 +99,35 @@ border-radius: 15px;
     
 }
 
-.bigfruit
+/*.bigfruit
 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-}
+}*/
 .fruits
 {
     border: 1px solid lightslategray;
     background-color: rgb(237, 226, 128);
-    
- 
 }
+
 .veg
 {
     width: 500px;
     height: 350px;
     margin-bottom: 20px;
 }
+.one{
+    float:left;
+}
+.two
+{
+    float:right;
+}
 .others
 {
+    clear:both;
     margin-left: 5px;
     margin-bottom: 10px;
 }
